@@ -1,0 +1,100 @@
+.car{
+    padding: 100px 0 100px;
+}
+
+.car__row{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    justify-content: center;
+    margin: 17px 0 13px;
+}
+
+.car__card{
+    text-align: center;
+}
+
+.car__card img {
+    vertical-align: bottom;
+    transition: all .3s;
+}
+.car__card:hover img {
+    transform: scale(1.1);
+}
+
+
+.car__btn{
+    width: 384px;
+    height: 54px;
+    cursor: pointer;
+    background: #030305;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.car__btn:hover{
+    background: #575757;
+    transition: .5s;
+}
+
+.car__title{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    color: #030305;
+}
+
+.car__h3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #030305;
+}
+
+.car__text{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+    color: black;
+}
+
+.car__span{
+    color: #030305;
+}
+
+.car__content{
+    display: flex;
+    column-gap: 24px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 992px) {
+    .car__content {
+        display: flex;
+        column-gap: 24px;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .car__title {
+        text-align: center;
+    }
+}
+
+@media (max-width: 583px) {
+    .car__title {
+        font-size: 52px;
+        line-height: 42px;
+    }
+}

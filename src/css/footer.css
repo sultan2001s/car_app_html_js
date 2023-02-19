@@ -1,0 +1,32 @@
+.footer{
+    padding: 25px 0 26px;
+    border-top: 2px solid  #E5E5E5;
+}
+
+.footer__row{
+    display: flex;
+    align-items: center;
+    column-gap: 700px;
+}
+
+@media (max-width: 992px) {
+    .footer__row {
+        display: flex;
+        align-items: center;
+        column-gap: 100px;
+    }
+}
+
+@media (max-width: 411px) {
+    .footer__row {
+        display: flex;
+        align-items: center;
+        column-gap: 40px;
+    }
+    .footer__row {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+}
